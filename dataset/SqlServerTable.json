@@ -1,0 +1,26 @@
+{
+	"name": "SqlServerTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "foldername",
+				"type": "nchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_Foldernames"
+		}
+	}
+}

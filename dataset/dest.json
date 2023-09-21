@@ -5,13 +5,21 @@
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"ds_outputname": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "dailyemails.csv",
-				"folderPath": "output1",
+				"folderPath": {
+					"value": "@dataset().ds_outputname",
+					"type": "Expression"
+				},
 				"container": "container1"
 			}
 		}
