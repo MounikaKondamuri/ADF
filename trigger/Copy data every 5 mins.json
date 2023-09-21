@@ -1,0 +1,17 @@
+{
+	"name": "Copy data every 5 mins",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2023-09-13T13:00:00",
+				"timeZone": "Pacific Standard Time"
+			}
+		}
+	}
+}

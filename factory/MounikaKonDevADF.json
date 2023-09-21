@@ -1,0 +1,9 @@
+{
+	"name": "MounikaKonDevADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9e66d93e-3d79-4790-bcd6-8c32e02c2bab",
+		"tenantId": "a045631b-f206-4951-8e42-7dcb5f53438c"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=Mounika\\MSSQLSERVER01;initial catalog=dev_ssis;user id=mk_user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2ZGIwODlmYy1hMGE5LTQ5YzctOGU4ZC1hMjdhOTY1OWNkMDIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IRselfHosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
